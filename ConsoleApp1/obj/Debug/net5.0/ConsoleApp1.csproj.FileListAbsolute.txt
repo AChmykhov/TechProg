@@ -1,0 +1,16 @@
+/home/alexander/RiderProjects/TechProg1/ConsoleApp1/bin/Debug/net5.0/ConsoleApp1
+/home/alexander/RiderProjects/TechProg1/ConsoleApp1/bin/Debug/net5.0/ConsoleApp1.deps.json
+/home/alexander/RiderProjects/TechProg1/ConsoleApp1/bin/Debug/net5.0/ConsoleApp1.runtimeconfig.json
+/home/alexander/RiderProjects/TechProg1/ConsoleApp1/bin/Debug/net5.0/ConsoleApp1.runtimeconfig.dev.json
+/home/alexander/RiderProjects/TechProg1/ConsoleApp1/bin/Debug/net5.0/ConsoleApp1.dll
+/home/alexander/RiderProjects/TechProg1/ConsoleApp1/bin/Debug/net5.0/ref/ConsoleApp1.dll
+/home/alexander/RiderProjects/TechProg1/ConsoleApp1/bin/Debug/net5.0/ConsoleApp1.pdb
+/home/alexander/RiderProjects/TechProg1/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.csproj.AssemblyReference.cache
+/home/alexander/RiderProjects/TechProg1/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+/home/alexander/RiderProjects/TechProg1/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.AssemblyInfoInputs.cache
+/home/alexander/RiderProjects/TechProg1/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.AssemblyInfo.cs
+/home/alexander/RiderProjects/TechProg1/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.csproj.CoreCompileInputs.cache
+/home/alexander/RiderProjects/TechProg1/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.dll
+/home/alexander/RiderProjects/TechProg1/ConsoleApp1/obj/Debug/net5.0/ref/ConsoleApp1.dll
+/home/alexander/RiderProjects/TechProg1/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.pdb
+/home/alexander/RiderProjects/TechProg1/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.genruntimeconfig.cache
