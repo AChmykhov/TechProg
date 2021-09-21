@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/alexander/RiderProjects/TechProg1/ConsoleApp1/ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "/home/alexander/RiderProjects/TechProg1/ConsoleApp1/ConsoleApp1.csproj",
+      "projectUniqueName": "/home/alexander/RiderProjects/TechProg/Homework/Homework.csproj",
+      "projectName": "Homework",
+      "projectPath": "/home/alexander/RiderProjects/TechProg/Homework/Homework.csproj",
       "packagesPath": "/home/alexander/.nuget/packages/",
-      "outputPath": "/home/alexander/RiderProjects/TechProg1/ConsoleApp1/obj/",
+      "outputPath": "/home/alexander/RiderProjects/TechProg/Homework/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/alexander/.nuget/NuGet/NuGet.Config"
