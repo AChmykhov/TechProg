@@ -1,0 +1,16 @@
+/home/alexander/RiderProjects/TechProg/Homework/bin/Debug/net5.0/Homework
+/home/alexander/RiderProjects/TechProg/Homework/bin/Debug/net5.0/Homework.deps.json
+/home/alexander/RiderProjects/TechProg/Homework/bin/Debug/net5.0/Homework.runtimeconfig.json
+/home/alexander/RiderProjects/TechProg/Homework/bin/Debug/net5.0/Homework.runtimeconfig.dev.json
+/home/alexander/RiderProjects/TechProg/Homework/bin/Debug/net5.0/Homework.dll
+/home/alexander/RiderProjects/TechProg/Homework/bin/Debug/net5.0/ref/Homework.dll
+/home/alexander/RiderProjects/TechProg/Homework/bin/Debug/net5.0/Homework.pdb
+/home/alexander/RiderProjects/TechProg/Homework/obj/Debug/net5.0/Homework.csproj.AssemblyReference.cache
+/home/alexander/RiderProjects/TechProg/Homework/obj/Debug/net5.0/Homework.GeneratedMSBuildEditorConfig.editorconfig
+/home/alexander/RiderProjects/TechProg/Homework/obj/Debug/net5.0/Homework.AssemblyInfoInputs.cache
+/home/alexander/RiderProjects/TechProg/Homework/obj/Debug/net5.0/Homework.AssemblyInfo.cs
+/home/alexander/RiderProjects/TechProg/Homework/obj/Debug/net5.0/Homework.csproj.CoreCompileInputs.cache
+/home/alexander/RiderProjects/TechProg/Homework/obj/Debug/net5.0/Homework.dll
+/home/alexander/RiderProjects/TechProg/Homework/obj/Debug/net5.0/ref/Homework.dll
+/home/alexander/RiderProjects/TechProg/Homework/obj/Debug/net5.0/Homework.pdb
+/home/alexander/RiderProjects/TechProg/Homework/obj/Debug/net5.0/Homework.genruntimeconfig.cache

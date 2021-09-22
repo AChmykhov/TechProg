@@ -1,0 +1,16 @@
+/home/alexander/RiderProjects/TechProg/Classwork/obj/Debug/net5.0/Classwork.csproj.AssemblyReference.cache
+/home/alexander/RiderProjects/TechProg/Classwork/obj/Debug/net5.0/Classwork.GeneratedMSBuildEditorConfig.editorconfig
+/home/alexander/RiderProjects/TechProg/Classwork/obj/Debug/net5.0/Classwork.AssemblyInfoInputs.cache
+/home/alexander/RiderProjects/TechProg/Classwork/obj/Debug/net5.0/Classwork.AssemblyInfo.cs
+/home/alexander/RiderProjects/TechProg/Classwork/obj/Debug/net5.0/Classwork.csproj.CoreCompileInputs.cache
+/home/alexander/RiderProjects/TechProg/Classwork/bin/Debug/net5.0/Classwork
+/home/alexander/RiderProjects/TechProg/Classwork/bin/Debug/net5.0/Classwork.deps.json
+/home/alexander/RiderProjects/TechProg/Classwork/bin/Debug/net5.0/Classwork.runtimeconfig.json
+/home/alexander/RiderProjects/TechProg/Classwork/bin/Debug/net5.0/Classwork.runtimeconfig.dev.json
+/home/alexander/RiderProjects/TechProg/Classwork/bin/Debug/net5.0/Classwork.dll
+/home/alexander/RiderProjects/TechProg/Classwork/bin/Debug/net5.0/ref/Classwork.dll
+/home/alexander/RiderProjects/TechProg/Classwork/bin/Debug/net5.0/Classwork.pdb
+/home/alexander/RiderProjects/TechProg/Classwork/obj/Debug/net5.0/Classwork.dll
+/home/alexander/RiderProjects/TechProg/Classwork/obj/Debug/net5.0/ref/Classwork.dll
+/home/alexander/RiderProjects/TechProg/Classwork/obj/Debug/net5.0/Classwork.pdb
+/home/alexander/RiderProjects/TechProg/Classwork/obj/Debug/net5.0/Classwork.genruntimeconfig.cache

@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Homework
+namespace Classwork
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Classwork1.Task8();
         }
     }
 }

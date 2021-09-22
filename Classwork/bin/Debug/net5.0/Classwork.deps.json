@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "ConsoleApp1/1.0.0": {
+      "Classwork/1.0.0": {
         "runtime": {
-          "ConsoleApp1.dll": {}
+          "Classwork.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "ConsoleApp1/1.0.0": {
+    "Classwork/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

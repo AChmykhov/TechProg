@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/alexander/RiderProjects/TechProg/ConsoleApp1/ConsoleApp1.csproj": {}
+    "/home/alexander/RiderProjects/TechProg/Classwork/Classwork.csproj": {}
   },
   "projects": {
-    "/home/alexander/RiderProjects/TechProg/ConsoleApp1/ConsoleApp1.csproj": {
+    "/home/alexander/RiderProjects/TechProg/Classwork/Classwork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/alexander/RiderProjects/TechProg/ConsoleApp1/ConsoleApp1.csproj",
-        "projectName": "ConsoleApp1",
-        "projectPath": "/home/alexander/RiderProjects/TechProg/ConsoleApp1/ConsoleApp1.csproj",
+        "projectUniqueName": "/home/alexander/RiderProjects/TechProg/Classwork/Classwork.csproj",
+        "projectName": "Classwork",
+        "projectPath": "/home/alexander/RiderProjects/TechProg/Classwork/Classwork.csproj",
         "packagesPath": "/home/alexander/.nuget/packages/",
-        "outputPath": "/home/alexander/RiderProjects/TechProg/ConsoleApp1/obj/",
+        "outputPath": "/home/alexander/RiderProjects/TechProg/Classwork/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/alexander/.nuget/NuGet/NuGet.Config"
