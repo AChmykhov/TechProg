@@ -31,7 +31,7 @@ namespace Classwork
             Random rnd = new Random();
             int l = rnd.Next(3, 10);
             int[] arr = new int[l * 3];
-            int c;
+            int c = 0;
             for (int i = 0; i < arr.Length; i++)
             {
                 if (i % 3 == 0)
@@ -236,7 +236,7 @@ namespace Classwork
                 arr[i] = c;
             }
 
-            for (int i = i; i > arr.Length + 1; i++)
+            for (int i = 0; i > arr.Length + 1; i++)
             {
                 if (Array.Find(arr, item => item == i) > -1)
                 {
