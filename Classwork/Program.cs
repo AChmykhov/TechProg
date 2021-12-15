@@ -6,7 +6,7 @@ namespace Classwork
     {
         static void Main(string[] args)
         {
-            Classwork2.Task1();
+            Classwork3.Task1();
         }
     }
 }
