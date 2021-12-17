@@ -73,10 +73,25 @@ namespace Homework
                 shops.Add(tmp);
             }
 
+            float[] fee = {0,0,0};
+            string sFee = Console.ReadLine();
+            if (sFee is not null)
+            {
+                int i = 0;
+                foreach (var el in sFee.Split())
+                {
+                    fee[i] = Convert.ToSingle(el);
+                    i++;
+                }
+            }
+
+
             //Display
+
+
         }
 
-        private List<float> CalcPrice(Product product, int shopLevel, int fee)
+        private List<float> CalcPrice(Product product, int shopLevel, int[] fee)
         {
             List<float> Price = new List<float>();
 
@@ -119,6 +134,14 @@ namespace Homework
                     Price[2] *= 0.89f;
                     Price[3] *= 0.94f;
                     break;
+            }
+            
+            Price.AddRange(new float[] {Price[2] * 0.95f, Price[3]* 0.98f, Price[3] * 0.97f, Price[3] * 0.95f});
+            Price[3] = Price[2] * 0.97f;
+            Price[2] *= 0.98f;
+            for (int i = 0; i < Price.Count; i++)
+            {
+                Price[i] += fee[product.Cat];
             }
             
 
