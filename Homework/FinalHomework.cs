@@ -73,7 +73,7 @@ namespace Homework
                 shops.Add(tmp);
             }
 
-            float[] fee = {0,0,0};
+            float[] fee = {0, 0, 0};
             string sFee = Console.ReadLine();
             if (sFee is not null)
             {
@@ -88,10 +88,45 @@ namespace Homework
 
             //Display
 
+            foreach (var shop in shops)
+            {
+                Console.WriteLine($"Магазин «{shop.Name}»:");
+                Console.WriteLine(
+                    $"\tТип лояльности: {(shop.Level != 0 ? (shop.Level == 1 ? "Серебро" : "Золото") : "Базовый")}");
+                for (int i = 0; i < shop.Racks.Count; i++)
+                {
+                    Console.WriteLine($"\tСтойка {i + 1}:");
+                    foreach (var product in shop.Racks[i])
+                    {
+                        Console.WriteLine($"\t\tТовар «{product.Name}»:");
+                        Console.WriteLine($"\t\t\tТип: {product.Type}");
+                        Console.WriteLine(
+                            $"\t\t\tКласс: {(product.Cat == 0 ? "Эконом" : (product.Cat == 1) ? "Стандарт" : "Премиум")}");
+                        Console.WriteLine("\t\t\tПараметры:");
+                        for (int j = 0; j < product.Params.Count; j++)
+                        {
+                            Console.WriteLine($"\t\t\t\tПараметр{j}: {product.Params[j]}");
+                        }
 
+                        var price = CalcPrice(product, shop.Level, fee);
+                        Console.WriteLine("\t\t\tЦена:");
+                        Console.WriteLine($"\t\t\t\tКлиентская: {price[0]}");
+                        Console.WriteLine($"\t\t\t\tКорпоративная: {price[1]}");
+                        Console.WriteLine("\t\t\tОптовая:");
+                        Console.WriteLine("\t\t\t\tКлиентская:");
+                        Console.WriteLine($"\t\t\t\t\t10: {price[2]}");
+                        Console.WriteLine($"\t\t\t\t\t100: {price[3]}");
+                        Console.WriteLine($"\t\t\t\t\t1000: {price[4]}");
+                        Console.WriteLine("\t\t\t\tКорпоративная:");
+                        Console.WriteLine($"\t\t\t\t\t10: {price[5]}");
+                        Console.WriteLine($"\t\t\t\t\t100: {price[6]}");
+                        Console.WriteLine($"\t\t\t\t\t1000: {price[7]}");
+                    }
+                }
+            }
         }
 
-        private List<float> CalcPrice(Product product, int shopLevel, int[] fee)
+        private List<float> CalcPrice(Product product, int shopLevel, float[] fee)
         {
             List<float> Price = new List<float>();
 
@@ -135,15 +170,15 @@ namespace Homework
                     Price[3] *= 0.94f;
                     break;
             }
-            
-            Price.AddRange(new float[] {Price[2] * 0.95f, Price[3]* 0.98f, Price[3] * 0.97f, Price[3] * 0.95f});
+
+            Price.AddRange(new float[] {Price[2] * 0.95f, Price[3] * 0.98f, Price[3] * 0.97f, Price[3] * 0.95f});
             Price[3] = Price[2] * 0.97f;
             Price[2] *= 0.98f;
             for (int i = 0; i < Price.Count; i++)
             {
                 Price[i] += fee[product.Cat];
             }
-            
+
 
             return Price;
         }
