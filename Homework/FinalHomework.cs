@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Homework
 {
@@ -34,7 +33,7 @@ namespace Homework
             public List<List<Product>> Racks;
         }
 
-        public void PopulateAndCalc()
+        public static void PopulateAndCalc()
         {
             List<Shop> shops = new List<Shop>();
 
@@ -43,9 +42,10 @@ namespace Homework
             /*
              * Формат ввода:
              * Число_магазинов
-             *      Имя_магазина Уровень_магазина Число_стоек
-             *          Число_товаров
-             *              Строка_товара
+             * Имя_магазина Уровень_магазина Число_стоек
+             * Число_товаров
+             * Строка_товара
+             * Пошлина
              */
             int numShops = Convert.ToInt32(Console.ReadLine());
             for (int i = 0; i < numShops; i++)
@@ -126,7 +126,7 @@ namespace Homework
             }
         }
 
-        private List<float> CalcPrice(Product product, int shopLevel, float[] fee)
+        private static List<float> CalcPrice(Product product, int shopLevel, float[] fee)
         {
             List<float> Price = new List<float>();
 
