@@ -6,7 +6,11 @@ namespace Classwork
     {
         static void Main(string[] args)
         {
-            Classwork3.Task1();
+            Zachet.Task1();
+            Console.ReadLine();
+            Zachet.Task2();
+            Console.ReadLine();
+            Zachet.Task3();
         }
     }
 }
