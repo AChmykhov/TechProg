@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/alexander/RiderProjects/TechProg/Homework/Homework.csproj": {}
+    "/home/alexander/RiderProjects/TechProg/Practice/Practice.csproj": {}
   },
   "projects": {
-    "/home/alexander/RiderProjects/TechProg/Homework/Homework.csproj": {
+    "/home/alexander/RiderProjects/TechProg/Practice/Practice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/alexander/RiderProjects/TechProg/Homework/Homework.csproj",
-        "projectName": "Homework",
-        "projectPath": "/home/alexander/RiderProjects/TechProg/Homework/Homework.csproj",
+        "projectUniqueName": "/home/alexander/RiderProjects/TechProg/Practice/Practice.csproj",
+        "projectName": "Practice",
+        "projectPath": "/home/alexander/RiderProjects/TechProg/Practice/Practice.csproj",
         "packagesPath": "/home/alexander/.nuget/packages/",
-        "outputPath": "/home/alexander/RiderProjects/TechProg/Homework/obj/",
+        "outputPath": "/home/alexander/RiderProjects/TechProg/Practice/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/alexander/.nuget/NuGet/NuGet.Config"
